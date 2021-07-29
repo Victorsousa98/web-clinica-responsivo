@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+}
+
+header .topo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    max-width: 1024px;
+    background-color: aqua;
+    height: 35px;
+    padding: 10px;
+    
+
+}
+
+a .img-logo{
+    width: 100px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    margin-right: 10px;
+}
+
+.titulo-img-fundo{
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(assets/recepcao.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    
+}
+
+.titulo-texto{
+    text-align: left;
+    width: 100%;
+    color: #fff;
+    font-size: 30px;
+}
